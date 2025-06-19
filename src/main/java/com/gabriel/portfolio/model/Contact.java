@@ -15,9 +15,7 @@ public class Contact {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String email;
-    private String phone;
-    private String linkedin;
-    private String github;
+    private String type;
+    private String value;
 
 }
