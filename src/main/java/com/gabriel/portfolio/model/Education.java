@@ -1,9 +1,6 @@
 package com.gabriel.portfolio.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
@@ -16,9 +13,9 @@ public class Education {
     private Long id;
 
     private String institution;
-    private String degree;
-    private String startDate;
-    private String endDate;
+    private String course;
+    @Column(columnDefinition = "TEXT")
+    private String status;
+    @Column(columnDefinition = "TEXT")
     private String description;
-
 }

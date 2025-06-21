@@ -13,9 +13,8 @@ public class Experience {
     private Long id;
 
     private String company;
-    private String role;
-    private String startDate;
-    private String endDate;
+    private String title;
+    private String duration;
     @Column(columnDefinition = "TEXT")
     private String description;
 

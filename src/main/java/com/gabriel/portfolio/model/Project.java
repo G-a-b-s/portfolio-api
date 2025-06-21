@@ -16,8 +16,6 @@ public class Project {
     @Column(columnDefinition = "TEXT")
     private String description;
     private String url;
-    private String imageUrl;
     private String technologies;
-    private String date;
 
 }
